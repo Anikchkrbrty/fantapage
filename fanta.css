@@ -1,0 +1,250 @@
+
+*{ 
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Oswald';
+	}
+html,body{
+	width:100%;
+	height:100%;
+	}
+body::-webkit-scrollbar {
+		display: none;
+	  }
+#main{
+width: 100%;
+height: 100vh;
+color: white;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	height: 10vh;
+	width: 100%;
+	padding: 0vw 10vw;
+	position: fixed;
+	z-index: 100;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5vw;
+}
+#center-div{
+	display: flex;
+	gap: 3vw;
+
+}
+
+nav img{
+	max-width:4rem ;
+	
+}
+nav i{
+	cursor: pointer;
+	font-size: 1.9vw;
+}
+#one{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(150deg,rgb(245, 160, 4),rgb(231, 73, 5));
+}
+#fanta{
+	width: 35%;
+	z-index: 2;
+	position: absolute;
+	transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+#orange{
+	width: 15%;
+	position: absolute;
+	top: 24%;
+	left: 33%;
+	z-index: 1;
+	transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+#orange2{
+	width: 20%;
+	position: absolute;
+	top: 53.3%;
+	left: 50%;
+	z-index: 3;
+	transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+#one h1{
+   font-size: 25vw;
+   font-family: 'Oswald';
+   -webkit-text-fill-color:rgba(226, 46, 6, 0.89);
+}
+#two{
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(150deg,rgb(231, 73, 5),rgb(245, 160, 4));
+	
+ display: flex;
+}
+#leaf2{
+width: 15%;
+position: absolute;
+left: 13%;
+top: 15%;
+transform: rotate(50deg);
+transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+#leaf1{
+width: 12%;
+position: absolute;
+bottom: 10%;
+right: 10%;
+transform: rotate(180deg);
+transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+
+}
+#leaf3{
+width: 15%;
+position: absolute;
+top: 10%;
+right: 0%;
+transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+#manyleaves{
+	width: 40%;
+	position: absolute;
+	top: 5%;
+	transform: translateZ(20px);
+	transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+#left-part,
+#right-part{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	gap: 4vh;
+
+}
+#left-part svg{
+    margin-top: 50vh;
+    width: 90%;
+    transform: rotateX(40deg);
+}
+#right-part h1{
+	font-size:6vw;
+    font-weight: 700;
+ color: rgb(192, 227, 15);
+
+}
+#right-part p{
+	width: 80%;
+	font-size: 1.5vw;
+	color: rgb(182, 9, 9);
+
+}
+#three{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(150deg,rgb(231, 73, 5),rgb(245, 160, 4));
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2vw;
+
+}
+#card{
+	height: 70vh;
+	background: #fff;
+	width: 25vw;
+	gap:2vh;
+	flex-direction: column;
+	position: relative;
+	border-radius: 30px;
+	margin-top:10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition:margin-top 0.5s ease-in-out
+}
+#card:hover{
+  margin-top: -50px;
+	cursor: pointer;
+	
+}
+#card h1{
+	color:black;
+	margin-top: 30vh;
+}
+#card button{
+  padding: 1vw 2vw;
+  background-color: brown;
+  color: white;
+  cursor: pointer;
+  font-size: 1vw;
+  border-radius: 50px;
+  border: none;
+}
+#card button a{
+	text-decoration: none;
+	color: white;
+}
+
+#fanta-grape{
+	top: -4%;
+    position: absolute;
+	 width: 100%;
+	 left: 50%;
+    transform: translate(-50%, 0%);
+	transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+   
+}
+#fanta-straw{
+	top: -5%;
+    position: absolute;
+	 width: 55%;
+	 left: 50%;
+    transform: translate(-50%, 0%);
+	transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+
+#fanta-pine{
+	top: -6%;
+    position: absolute;
+	 width: 60%;
+	left: 50%;
+    transform: translate(-50%, 0%);
+	transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+   
+}
+ #grape{
+width: 15vw;
+position: absolute;
+top: -15%;
+transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+#strawberry{
+	width: 50%;
+	position: absolute;
+	top: -11%;
+	transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+	
+}
+#pine{
+  width: 45%;
+  position: absolute;
+  top: -20%;
+  left: 29%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+#orange1{
+width:45%;
+position: absolute;
+top:-12%;
+transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
